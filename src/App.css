@@ -1,32 +1,26 @@
 .Nav {
   display: flex;
-  justify-content: center;
-  /* background-color: rgba(191, 253, 255, 0.35); */
   background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
   opacity: 0.7;
   background-repeat: cover;
-  margin-bottom: 10px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
   box-shadow: rgba(87, 3, 121, 0.5) 0px 0px 15px 0px;
+  align-items: center;
+  justify-content: space-around;
 }
 .Nav p{
-  font-weight: 700;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  font-weight: 500;
+  padding-left: 5rem;
+  padding-right: 5rem;
   color: beige;
   text-decoration: none;
+  justify-content: space-around;
 }
 .Nav p:hover{
   color: aquamarine;
-  text-decoration: none;
 }
 .CharacterPhoto {
   height: 10rem;
   border-radius: 5px;
-}
-.App {
-  text-align: center;
 }
 .about{
   width: 50%;
@@ -36,4 +30,14 @@
   background-color: rgba(87, 3, 121, 0.35);
   font-size: large;
   color: white;
+}
+.App {
+  text-align: center;
+}
+.Title{
+  font-family: 'Harry Potter', sans-serif;
+  color: white;
+  padding-top: 2rem;
+  margin-top: 0;
+  padding-bottom: 5px;
 }

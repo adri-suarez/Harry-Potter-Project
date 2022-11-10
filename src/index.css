@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   background-image: url("https://wallpapercave.com/wp/wp9021982.jpg");
-  background-size: contain;
+  background-size: auto;
 }
 
 code {
