@@ -1,17 +1,13 @@
 .cardsita{
-    /* align-items: center; *//* 
-    display: flex;
-    flex-direction: row; */
     color: white;
-    text-shadow: wheat 5px 5px 5px 5px;
-    display: inline-table;
-    justify-content: center;
+/*     display: inline-table; */
     background-color: rgba(87, 3, 121, 0.25);
     width: 15%;
     margin: 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.267) 3px 3px 3px 3px;
 }
+
 .cardsita:hover{
     cursor: pointer;
     transform: scale(1.05);

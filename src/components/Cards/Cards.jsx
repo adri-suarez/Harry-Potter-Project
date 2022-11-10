@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Card from '../Card/Card'
 import db from '../../db.json'
+import style from './Cards.module.css'
 
 function Cards() {
 
@@ -15,7 +16,7 @@ function Cards() {
     }, [])
 
   return (
-    <li>
+    <li className={style.Cards}>
         {chars.map((el, i) => {
             return (<Card
                 key={i}
