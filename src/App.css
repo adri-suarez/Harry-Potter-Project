@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-.Title{
-  font-family: 'Harry Potter', sans-serif;
+.Title {
+  font-family: "Harry Potter", sans-serif;
   color: white;
   padding-top: 2rem;
   margin-top: 0;
@@ -18,9 +18,10 @@
   box-shadow: rgba(87, 3, 121, 0.5) 0px 0px 15px 0px;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 1rem;
 }
 
-.Nav p{
+.Nav p {
   font-weight: 500;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -29,16 +30,16 @@
   justify-content: space-around;
 }
 
-.Nav p:hover{
+.Nav p:hover {
   color: aquamarine;
 }
 
 .CharacterPhoto {
   height: 10rem;
   border-radius: 5px;
-
 }
-.about{
+
+.about {
   width: 50%;
   margin-left: 24.5%;
   margin-top: 3%;
